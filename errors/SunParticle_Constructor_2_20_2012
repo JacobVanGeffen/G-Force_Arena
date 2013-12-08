@@ -1,0 +1,27 @@
+02-20 19:56:57.760: ERROR/dalvikvm-heap(421): 4000000-byte external allocation too large for this process.
+02-20 19:56:57.760: ERROR/(421): VM won't let us allocate 4000000 bytes
+02-20 19:56:57.760: ERROR/AndroidRuntime(421): Uncaught handler: thread main exiting due to uncaught exception
+02-20 19:56:57.770: ERROR/AndroidRuntime(421): java.lang.OutOfMemoryError: bitmap size exceeds VM budget
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.graphics.BitmapFactory.nativeDecodeAsset(Native Method)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.graphics.BitmapFactory.decodeStream(BitmapFactory.java:447)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.graphics.BitmapFactory.decodeResourceStream(BitmapFactory.java:323)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.graphics.BitmapFactory.decodeResource(BitmapFactory.java:346)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.graphics.BitmapFactory.decodeResource(BitmapFactory.java:372)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at com.dEVELdRONE.GForce_Arena.SunParticle.<init>(SunParticle.java:15)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at com.dEVELdRONE.GForce_Arena.Level.initSuns(Level.java:105)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at com.dEVELdRONE.GForce_Arena.Level.init(Level.java:92)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at com.dEVELdRONE.GForce_Arena.Level.levelGenerator(Level.java:153)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at com.dEVELdRONE.GForce_Arena.LevelActivity.onCreate(LevelActivity.java:22)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2459)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2512)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:3625)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.app.ActivityThread.access$2300(ActivityThread.java:119)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1867)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.os.Handler.dispatchMessage(Handler.java:99)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.os.Looper.loop(Looper.java:123)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at android.app.ActivityThread.main(ActivityThread.java:4363)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at java.lang.reflect.Method.invokeNative(Native Method)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at java.lang.reflect.Method.invoke(Method.java:521)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:860)
+02-20 19:56:57.770: ERROR/AndroidRuntime(421):     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
